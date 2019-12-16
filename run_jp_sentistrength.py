@@ -32,7 +32,7 @@ def processLine(linewrite, termsList):
 def run_jp_sentistrength(input_file_path, output_folder_path, sentistrength_path, sentistrength_dictionary_path):
     '''
     Uses Japanese SentiStrength to tag texts for sentiment.
-    Output file will be saved under [processed_path]0.txt.
+    Output file will be saved under [processed_path]0_out.txt.
     If number of texts is larger, wait a little for program to complete.
 
     Input:
