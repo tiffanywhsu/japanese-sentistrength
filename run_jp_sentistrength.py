@@ -106,6 +106,5 @@ def run_jp_sentistrength(input_file_path, output_folder_path, sentistrength_path
 
 
 if __name__ == '__main__':
-    print(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4])
     run_jp_sentistrength(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4])
 
