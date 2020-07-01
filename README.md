@@ -2,7 +2,7 @@
 Japanese version of the SentiStrength sentiment analysis program.
 
 ## Overview 
-SentiStrength (http://sentistrength.wlv.ac.uk/) is a sentiment analysis package that assigns a positive intensity label and a negative intensity label to English texts, optimized for short, social media web texts. The package has two parts: a program with built-in language structural and grammatical rules, and a dictionary set with machine-learning-trained positive/negative intensity labels. This repository contains the Japanese version of this program. This includes the program (JP_SentiStrength.jar), the dictionary set (SentiStrength_DataJapanese), along with a Python script that preprocesses the raw data and engages with the program and dictionary set. 
+SentiStrength (http://sentistrength.wlv.ac.uk/) is a sentiment analysis package that assigns a positive intensity label and a negative intensity label to English texts, optimized for short, social media web texts (Thelwall et al., 2010). The package has two parts: a program with built-in language structural and grammatical rules, and a dictionary set with machine-learning-trained positive/negative intensity labels. This repository contains the Japanese version of this program. This includes the program (JP_SentiStrength.jar), the dictionary set (SentiStrength_DataJapanese), along with a Python script that preprocesses the raw data and engages with the program and dictionary set. 
 
 ## Repo Contents
 - **JP_SentiStrength.jar**: the program
@@ -80,3 +80,12 @@ The decisions for these default settings are supported in the paper.
 
 
 Japanese SentiStrength includes capabilities as those in English SentiStrength See the SentiStrength Java Manual provided by the English SentiStrength developers (http://sentistrength.wlv.ac.uk/documentation/SentiStrengthJavaManual.doc). 
+
+
+## Authors
+- **Tiffany W. Hsu** (PhD candidate, Stanford University)
+- **Mike Thelwall** (Professor, University of Wolverhampton)
+- **Yu Niiya** (Professor, Hosei University) 
+- **Katherine Sun** (Undergraduate student, Yale University)
+
+
